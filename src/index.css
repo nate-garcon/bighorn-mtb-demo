@@ -1,0 +1,14 @@
+/* Bighorn Mountain Biking — base styles */
+:root {
+  --color-bg: #0d0d0d;
+  --color-surface: #161616;
+  --color-primary: #e8e8e8;
+  --color-accent: #c9a227;
+  --color-text: #e8e8e8;
+  --color-text-muted: #888;
+  --font-heading: "DM Serif Display", serif;
+  --font-body: "Space Grotesk", sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);background:var(--color-bg);color:var(--color-text);line-height:1.6}
